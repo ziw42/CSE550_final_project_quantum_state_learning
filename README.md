@@ -13,7 +13,7 @@ python -c "import tensorflow as tf; import google.protobuf; print(tf.__version__
 
 ### Notes / common issues
 
-- If you see `Descriptors cannot be created directly` when importing TensorFlow 1.xx, ensure `protobuf==3.20.3` is installed (already pinned in `environment.yml` and `requirements.txt`).
+- If you see `Descriptors cannot be created directly` when importing TensorFlow 1.xx, ensure `protobuf==3.20.3` is installed (already pinned in `environment.yml`).
 - If you see `cudart64_100.dll not found`, it is a GPU runtime warning from TensorFlow and can be ignored if you are running on CPU.
 
 ## Run training
