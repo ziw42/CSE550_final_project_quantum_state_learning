@@ -18,6 +18,8 @@ python -c "import tensorflow as tf; import google.protobuf; print(tf.__version__
 
 ## Run training
 
+Please change all paths in the .cmd files if needed. My local powershell has some issue so I have to use the full paths.
+
 For RBM:
 
 ```powershell
